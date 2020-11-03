@@ -4,13 +4,7 @@ myNumber = numBottles
 while numBottles >= numExchange:
 
     exchangebleBottle = numBottles // numExchange
-    unchangebleBottle = numBottles % numExchange
-
     myNumber += exchangebleBottle
-
-    numBottles = exchangebleBottle + unchangebleBottle
-    # unchangebleBottle = numBottles
-
-
+    numBottles = exchangebleBottle + numBottles % numExchange
 
 print(myNumber)
