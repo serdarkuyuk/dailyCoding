@@ -19,8 +19,8 @@ def findeasier(n):
     return n*(n-1)/2
 
 summation = 0
-for key in myDict.keys():
-    if myDict[key] > 1:
-        summation += findeasier(myDict[key])
+for values in myDict.values():
+    if values > 1:
+        summation += findeasier(values)
 
 print(summation)
