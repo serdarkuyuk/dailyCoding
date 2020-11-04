@@ -5,11 +5,11 @@ extraCandies = 1
 mylist = []
 candies2max = max(candies) - extraCandies
 
-#soution 1 with append (faster)
+#soution 1 with append
 for candie in candies:
     mylist.append(candie >= candies2max )
 
-#solution 2 with list comprehension (slower)
+#solution 2 with list comprehension
 mylist = [candie >= candies2max for candie in candies]
 
 print(mylist)
