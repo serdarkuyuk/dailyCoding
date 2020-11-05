@@ -1,4 +1,5 @@
 listm = [1,1,0,0,0,0,0,1,1,1]
+
 '''listm = []
 maxcount = count = i = 0
 prev = None
