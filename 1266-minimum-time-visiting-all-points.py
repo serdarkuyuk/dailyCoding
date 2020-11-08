@@ -8,6 +8,7 @@ for num in range(len(points)-1):
     distance += max(abs(y2-y1),abs(x2-x1))
 print(distance)
 
+
 #solution 2
 for tup1, tup2 in zip(points[:-1:], points[1:]):
     x1, y1 = tup1[0], tup1[1]
