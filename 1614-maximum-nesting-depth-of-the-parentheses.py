@@ -2,7 +2,6 @@ s = "(1+(2*3)+((8)/4))+1"
 # s = "(1)+((2))+(((3)))"
 # s = "1+(2*3)/(2-1)"
 s = "8*((1*(5+6))*(8/6))"
-
 #solution 1 with stack
 depth = 0
 stack = []
@@ -14,7 +13,7 @@ for i in s:
         stack.pop()
 print(depth)
 
-#solution 2 with counter
+#solution 2
 depth = 0
 count = 0
 for i in s:
