@@ -11,7 +11,6 @@ summation = 0
 
 for i in range(len(mat[0])):
     summation += (mat[i][i] + mat[i][-i-1])
-    print(mat[i][i],mat[i][-i-1])
 if len(mat[0]) % 2 == 1:
     mid = len(mat[0])//2
     summation -= mat[mid][mid]
